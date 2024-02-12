@@ -1,0 +1,304 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+
+.first-nav{
+    height: 50px;
+    width: 100%;
+    display: flex;
+}
+
+.logo{
+    height: 20px;
+    width: 40px;
+    background-image: url(./asset/olx\ logo.png);
+    background-size: cover;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+.motor{
+    display: flex;
+    margin-top: 17px;
+    margin-left: 40px;
+    width: 40px;
+    height: 40px;
+}
+
+.motor p{
+    margin-left: 14px;
+    font-family: Roboto,Helvetica,sans-serif;
+    font-size: 0.7rem;
+    color: #383737;
+    margin-top: 3px;
+}
+
+.building{
+    display: flex;
+    margin-top: 17px;
+    margin-left: 80px;
+    width: 40px;
+    height: 40px;
+}
+
+.building p{
+    margin-left: 14px;
+    font-family: Roboto,Helvetica,sans-serif;
+    font-size: 0.7rem;
+    color: #383737;
+    margin-top: 3px;
+}
+
+.second-nav{
+    width: 100%;
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    
+
+}
+
+.logo2{
+    background-image: url(./asset/logo2.png);
+    height: 50px;
+    width: 90px;
+    background-size: cover;
+
+}
+
+.loc-search{
+    display: flex;
+    align-items: center;
+    border: 2px solid black;
+    width: 300px;
+    padding: 8px;
+    height: 45px;
+    border-radius: 5px;
+}
+
+.loc-search p{
+    margin-right: 160px;
+    font-family: Roboto,Helvetica,sans-serif;
+    color: #383737;
+}
+
+.nav-search{
+    display: flex;
+    /* margin-left: 0px; */
+    height: 45px;
+}
+
+input{
+    height: 45px;
+    width: 600px;
+    display: flex;
+    align-items: center;
+    border-radius: 5px 0px 0px 5px;
+    padding-left: 3px;
+    font-family: Roboto,Helvetica,sans-serif;
+    color: #383737;
+    font-size: 1rem;
+}
+
+.nav-search-input{
+    border: 2px solid black;
+    height: 45px;
+    background-color: #002f34;
+    width: 50px;
+    color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 1.8rem;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5x;    
+}
+
+.login{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 600;
+    color: #002f34;
+    text-decoration: underline;
+    font-size: 1.2rem;
+}
+
+.sell{
+    background-image: url(./asset/sell.png);
+    height: 52px;
+    width: 120px;
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: 700;
+}
+
+.sell i{
+    font-size: 1rem;
+    font-weight: bolder;
+}
+
+.sell p{
+    /* margin-left: 5px; */
+}
+
+.third-nav{
+    display: flex;
+    list-style-type: none;
+    gap: 15px;
+    /* margin-left: 30px; */
+    height: 40px;
+    align-items: center;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 1.02rem;
+}
+
+.all{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+}
+
+
+.hero{
+    background-image: url(./asset/hero.jfif);
+    width: 100%;
+    height: 200px;
+    background-size: cover;
+    margin-top: 20px;
+}
+
+.all-catagories{
+    font-size: 24px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #002f34;
+    /* margin-left: 30px; */
+    font-weight: 600;
+}
+
+.catagories{
+    display: flex;
+    /* justify-content: space-evenly; */
+    flex-wrap: wrap;
+    gap: 50px;
+    width: 100%;
+    height: 400px;
+    
+}
+
+.vehicle-image{
+    background-image: url(./asset/vehicle.png);
+    height: 90px;
+    width: 90px;
+    background-size: cover;
+}
+
+.text{
+    width: 90px;
+    height: 20px;
+    text-align: center;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 5px;
+}
+
+.service-image{
+    background-image: url(./asset/service.png);
+    height: 90px;
+    width: 90px;
+    background-size: cover;
+}
+
+.rent-image{
+    background-image: url(./asset/rent.png);
+    height: 90px;
+    width: 90px;
+    background-size: cover;
+}
+
+.mobile-image{
+    background-image: url(./asset/mobile.png);
+    height: 90px;
+    width: 90px;
+    background-size: cover;
+}
+
+.kids-image{
+    background-image: url(./asset/kids.png);
+    height: 90px;
+    width: 90px;
+    background-size: cover;
+}
+
+.jobs-image{
+    background-image: url(./asset/jobs.png);
+    height: 90px;
+    width: 90px;
+    background-size: cover;
+}
+
+.house-image{
+    background-image: url(./asset/house.png);
+    height: 90px;
+    width: 90px;
+    background-size: cover;
+}
+
+.furniture-image{
+    background-image: url(./asset/furniture.png);
+    height: 90px;
+    width: 90px;
+    background-size: cover;
+}
+
+.fashion-image{
+    background-image: url(./asset/fashion.png);
+    height: 90px;
+    width: 90px;
+    background-size: cover;
+}
+
+.electronic-image{
+    background-image: url(./asset/electronic.png);
+    height: 90px;
+    width: 90px;
+    background-size: cover;
+}
+
+.bussiness-image{
+    background-image: url(./asset/Bussiness.png);
+    height: 90px;
+    width: 90px;
+    background-size: cover;
+}
+
+.books-image{
+    background-image: url(./asset/books.png);
+    height: 90px;
+    width: 90px;
+    background-size: cover;
+}
+
+.bikes-image{
+    background-image: url(./asset/bikes.png);
+    height: 90px;
+    width: 90px;
+    background-size: cover;
+}
+
+.animals-image{
+    background-image: url(./asset/animals.png);
+    height: 90px;
+    width: 90px;
+    background-size: cover;
+}
+    
+
